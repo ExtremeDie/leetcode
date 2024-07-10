@@ -161,6 +161,9 @@
   },
   "active": "328d3d9cda9c0ee2",
   "lastOpenFiles": [
+    "algorithms/271. Encode and Decode Strings/271.md",
+    "algorithms/271. Encode and Decode Strings/271.js",
+    "algorithms/271. Encode and Decode Strings",
     "algorithms/128. Longest Consecutive Sequence/128.md",
     "algorithms/128. Longest Consecutive Sequence/128.js",
     "algorithms/128. Longest Consecutive Sequence/128..md",
@@ -171,8 +174,6 @@
     "algorithms/347. Top K Frequent Elements",
     "algorithms/ Code   Testcase Test Result Test Result 347. Top K Frequent Elements",
     "algorithms/49. Group Anagrams/test.js",
-    "tempCodeRunnerFile.javascript",
-    "algorithms/49. Group Anagrams/tempCodeRunnerFile.js",
     "algorithms/3. Longest Substring Without Repeating Characters/3.md",
     "grind75/Array/lesson.md",
     "Untitled.md",
