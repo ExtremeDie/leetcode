@@ -161,6 +161,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/21. Merge Two Sorted Lists/21.md",
+    "algorithms/21. Merge Two Sorted Lists/21.js",
+    "algorithms/21. Merge Two Sorted Lists",
     "algorithms/206. Reverse Linked List/206.js",
     "algorithms/206. Reverse Linked List/206.md",
     "algorithms/206. Reverse Linked List",
@@ -175,9 +178,6 @@
     "algorithms/128. Longest Consecutive Sequence/128..md",
     "algorithms/128. Longest Consecutive Sequence/128..js",
     "algorithms/128. Longest Consecutive Sequence",
-    "create.sh",
-    "algorithms/347. Top K Frequent Elements/347.js",
-    "algorithms/347. Top K Frequent Elements",
     "Untitled.md",
     "README.md",
     "Untitled.canvas"
