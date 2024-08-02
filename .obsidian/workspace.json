@@ -161,6 +161,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/100. Same Tree/100.md",
+    "algorithms/100. Same Tree/100.js",
+    "algorithms/100. Same Tree",
     "algorithms/104. Maximum Depth of Binary Tree/104.md",
     "algorithms/104. Maximum Depth of Binary Tree/104.js",
     "algorithms/104. Maximum Depth of Binary Tree",
@@ -175,8 +178,6 @@
     "algorithms/143. Reorder List/143.js",
     "algorithms/143. Reorder List",
     "algorithms/21. Merge Two Sorted Lists/21.md",
-    "algorithms/21. Merge Two Sorted Lists/21.js",
-    "algorithms/21. Merge Two Sorted Lists",
     "algorithms/206. Reverse Linked List/206.md",
     "algorithms/3. Longest Substring Without Repeating Characters/3.md",
     "grind75/Array/lesson.md",
