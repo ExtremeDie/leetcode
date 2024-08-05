@@ -1,0 +1,199 @@
+{
+  "main": {
+    "id": "bac273a9891de724",
+    "type": "split",
+    "children": [
+      {
+        "id": "ae5d684b49f8625e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "57346c7c02bf3607",
+            "type": "leaf",
+            "state": {
+              "type": "code-editor",
+              "state": {
+                "file": "algorithms/3. Longest Substring Without Repeating Characters/3.js"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "21614dfd6909452a",
+    "type": "split",
+    "children": [
+      {
+        "id": "dcfcd2dd55f319f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "328d3d9cda9c0ee2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5197c220376baa9b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "95fa5330c7548296",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "11807dda2b6840e7",
+    "type": "split",
+    "children": [
+      {
+        "id": "86fb39106a54601a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42ae5d86486c179d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "algorithms/3. Longest Substring Without Repeating Characters/3.js",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15327c9e94a3736e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "algorithms/3. Longest Substring Without Repeating Characters/3.js",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1f7bac1e0d998ef9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "8d8174f152b75e82",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "algorithms/3. Longest Substring Without Repeating Characters/3.js"
+              }
+            }
+          },
+          {
+            "id": "4b5f4e084556c65c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "code-files:Create Code File": false
+    }
+  },
+  "active": "57346c7c02bf3607",
+  "lastOpenFiles": [
+    "algorithms/572. Subtree of Another Tree/572.md",
+    "algorithms/572. Subtree of Another Tree/572.js",
+    "algorithms/572. Subtree of Another Tree",
+    "grind75/Array/lesson.md",
+    "grind75/Array",
+    "grind75",
+    "create.sh",
+    "algorithms/76. Minimum Window Substring/76.md",
+    "algorithms/76. Minimum Window Substring/76.js",
+    "algorithms/76. Minimum Window Substring",
+    "algorithms/49. Group Anagrams/49.js",
+    "algorithms/49. Group Anagrams",
+    "algorithms/424. Longest Repeating Character Replacement/424.md",
+    "algorithms/424. Longest Repeating Character Replacement/424.js",
+    "algorithms/33. Search in Rotated Sorted Array/33.md",
+    "algorithms/3. Longest Substring Without Repeating Characters/3.md",
+    "algorithms/238. Product of Array Except Self/238.md",
+    "algorithms/226. Invert Binary Tree/226.md",
+    "algorithms/21. Merge Two Sorted Lists/21.md",
+    "algorithms/206. Reverse Linked List/206.md",
+    "algorithms/20. Valid Parentheses/20.md",
+    "algorithms/19. Remove Nth Node From End of List/19.md",
+    "algorithms/153. Find Minimum in Rotated Sorted Array/153.md",
+    "algorithms/15. 3Sum/15.md",
+    "algorithms/143. Reorder List/143.md",
+    "algorithms/141. Linked List Cycle/141.md",
+    "algorithms/128. Longest Consecutive Sequence/128.md",
+    "algorithms/125. Valid Palindrome/125.md",
+    "algorithms/121. Best Time to Buy and Sell Stock/121.md",
+    "algorithms/11. Container With Most Water/11.md",
+    "algorithms/104. Maximum Depth of Binary Tree/104.md",
+    "algorithms/100. Same Tree/100.md",
+    "algorithms/572. Subtree of Another Tree\n/572.md",
+    "algorithms/271. Encode and Decode Strings/271.md",
+    "algorithms/128. Longest Consecutive Sequence/128..md",
+    "Untitled.canvas"
+  ]
+}
