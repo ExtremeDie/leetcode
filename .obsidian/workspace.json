@@ -159,6 +159,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/102. Binary Tree Level Order Traversal/102.md",
+    "algorithms/102. Binary Tree Level Order Traversal/102.js",
+    "algorithms/102. Binary Tree Level Order Traversal",
     "algorithms/235. Lowest Common Ancestor of a Binary Search Tree/235.md",
     "algorithms/235. Lowest Common Ancestor of a Binary Search Tree/235.js",
     "algorithms/235. Lowest Common Ancestor of a Binary Search Tree",
@@ -171,8 +174,6 @@
     "algorithms/76. Minimum Window Substring",
     "algorithms/572. Subtree of Another Tree/572.md",
     "algorithms/572. Subtree of Another Tree/572.js",
-    "algorithms/572. Subtree of Another Tree",
-    "algorithms/49. Group Anagrams/49.js",
     "algorithms/424. Longest Repeating Character Replacement/424.md",
     "algorithms/33. Search in Rotated Sorted Array/33.md",
     "algorithms/3. Longest Substring Without Repeating Characters/3.md",
@@ -194,7 +195,6 @@
     "algorithms/100. Same Tree/100.md",
     "algorithms/572. Subtree of Another Tree\n/572.md",
     "algorithms/271. Encode and Decode Strings/271.md",
-    "algorithms/128. Longest Consecutive Sequence/128..md",
     "Untitled.canvas"
   ]
 }
