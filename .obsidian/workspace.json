@@ -159,6 +159,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/191. Number of 1 Bits/191.md",
+    "algorithms/191. Number of 1 Bits/191.js",
+    "algorithms/191. Number of 1 Bits",
     "algorithms/102. Binary Tree Level Order Traversal/102.md",
     "algorithms/102. Binary Tree Level Order Traversal/102.js",
     "algorithms/102. Binary Tree Level Order Traversal",
@@ -171,9 +174,7 @@
     "create.sh",
     "algorithms/76. Minimum Window Substring/76.md",
     "algorithms/76. Minimum Window Substring/76.js",
-    "algorithms/76. Minimum Window Substring",
     "algorithms/572. Subtree of Another Tree/572.md",
-    "algorithms/572. Subtree of Another Tree/572.js",
     "algorithms/424. Longest Repeating Character Replacement/424.md",
     "algorithms/33. Search in Rotated Sorted Array/33.md",
     "algorithms/3. Longest Substring Without Repeating Characters/3.md",
@@ -194,7 +195,6 @@
     "algorithms/104. Maximum Depth of Binary Tree/104.md",
     "algorithms/100. Same Tree/100.md",
     "algorithms/572. Subtree of Another Tree\n/572.md",
-    "algorithms/271. Encode and Decode Strings/271.md",
     "Untitled.canvas"
   ]
 }
