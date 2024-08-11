@@ -159,6 +159,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/338. Counting Bits/338.md",
+    "algorithms/338. Counting Bits/338.js",
+    "algorithms/338. Counting Bits",
     "algorithms/191. Number of 1 Bits/191.md",
     "algorithms/191. Number of 1 Bits/191.js",
     "algorithms/191. Number of 1 Bits",
@@ -171,9 +174,7 @@
     "grind75/Array/lesson.md",
     "grind75/Array",
     "grind75",
-    "create.sh",
     "algorithms/76. Minimum Window Substring/76.md",
-    "algorithms/76. Minimum Window Substring/76.js",
     "algorithms/572. Subtree of Another Tree/572.md",
     "algorithms/424. Longest Repeating Character Replacement/424.md",
     "algorithms/33. Search in Rotated Sorted Array/33.md",
@@ -194,7 +195,6 @@
     "algorithms/11. Container With Most Water/11.md",
     "algorithms/104. Maximum Depth of Binary Tree/104.md",
     "algorithms/100. Same Tree/100.md",
-    "algorithms/572. Subtree of Another Tree\n/572.md",
     "Untitled.canvas"
   ]
 }
