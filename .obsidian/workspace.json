@@ -159,6 +159,10 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/190. Reverse Bits/tempCodeRunnerFile.js",
+    "algorithms/190. Reverse Bits/190.md",
+    "algorithms/190. Reverse Bits/190.js",
+    "algorithms/190. Reverse Bits",
     "algorithms/338. Counting Bits/338.md",
     "algorithms/338. Counting Bits/338.js",
     "algorithms/338. Counting Bits",
@@ -172,8 +176,6 @@
     "algorithms/235. Lowest Common Ancestor of a Binary Search Tree/235.js",
     "algorithms/235. Lowest Common Ancestor of a Binary Search Tree",
     "grind75/Array/lesson.md",
-    "grind75/Array",
-    "grind75",
     "algorithms/76. Minimum Window Substring/76.md",
     "algorithms/572. Subtree of Another Tree/572.md",
     "algorithms/424. Longest Repeating Character Replacement/424.md",
@@ -193,8 +195,6 @@
     "algorithms/125. Valid Palindrome/125.md",
     "algorithms/121. Best Time to Buy and Sell Stock/121.md",
     "algorithms/11. Container With Most Water/11.md",
-    "algorithms/104. Maximum Depth of Binary Tree/104.md",
-    "algorithms/100. Same Tree/100.md",
     "Untitled.canvas"
   ]
 }
