@@ -159,6 +159,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/198. House Robber/198.md",
+    "algorithms/198. House Robber/198.js",
+    "algorithms/198. House Robber",
     "algorithms/124. Binary Tree Maximum Path Sum/124.md",
     "algorithms/124. Binary Tree Maximum Path Sum/124.js",
     "algorithms/124. Binary Tree Maximum Path Sum",
@@ -172,8 +175,6 @@
     "algorithms/105. Construct Binary Tree from Preorder and Inorder Traversal\n/105.js",
     "algorithms/105. Construct Binary Tree from Preorder and Inorder Traversal\n",
     "algorithms/230. Kth Smallest Element in a BST/230.md",
-    "algorithms/230. Kth Smallest Element in a BST/230.js",
-    "algorithms/230. Kth Smallest Element in a BST",
     "algorithms/98. Validate Binary Search Tree/98.md",
     "algorithms/23. Merge k Sorted Lists/23.md",
     "algorithms/371. Sum of Two Integers/371.md",
@@ -194,7 +195,6 @@
     "algorithms/21. Merge Two Sorted Lists/21.md",
     "algorithms/206. Reverse Linked List/206.md",
     "algorithms/20. Valid Parentheses/20.md",
-    "algorithms/19. Remove Nth Node From End of List/19.md",
     "Untitled.canvas"
   ]
 }
