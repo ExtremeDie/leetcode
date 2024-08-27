@@ -159,6 +159,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/79. Word Search/79.md",
+    "algorithms/79. Word Search/79.js",
+    "algorithms/79. Word Search",
     "algorithms/39. Combination Sum/39.md",
     "algorithms/39. Combination Sum/39.js",
     "algorithms/39. Combination Sum",
@@ -172,8 +175,6 @@
     "algorithms/124. Binary Tree Maximum Path Sum/124.js",
     "algorithms/124. Binary Tree Maximum Path Sum",
     "algorithms/252. Meeting Rooms/252.md",
-    "algorithms/252. Meeting Rooms/252.js",
-    "algorithms/252. Meeting Rooms",
     "algorithms/70. Climbing Stairs/70.md",
     "algorithms/105. Construct Binary Tree from Preorder and Inorder Traversal\n/105.md",
     "algorithms/230. Kth Smallest Element in a BST/230.md",
@@ -194,7 +195,6 @@
     "algorithms/3. Longest Substring Without Repeating Characters/3.md",
     "algorithms/238. Product of Array Except Self/238.md",
     "algorithms/226. Invert Binary Tree/226.md",
-    "algorithms/21. Merge Two Sorted Lists/21.md",
     "Untitled.canvas"
   ]
 }
