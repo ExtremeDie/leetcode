@@ -159,6 +159,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/212. Word Search II/212.md",
+    "algorithms/212. Word Search II/212.js",
+    "algorithms/212. Word Search II",
     "algorithms/211. Design Add and Search Words Data Structure/211.md",
     "algorithms/211. Design Add and Search Words Data Structure/211.js",
     "algorithms/211. Design Add and Search Words Data Structure",
@@ -172,8 +175,6 @@
     "algorithms/39. Combination Sum/39.js",
     "algorithms/39. Combination Sum",
     "algorithms/297. Serialize and Deserialize Binary Tree/297.md",
-    "algorithms/297. Serialize and Deserialize Binary Tree/297.js",
-    "algorithms/297. Serialize and Deserialize Binary Tree",
     "algorithms/198. House Robber/198.md",
     "algorithms/124. Binary Tree Maximum Path Sum/124.md",
     "algorithms/252. Meeting Rooms/252.md",
@@ -194,7 +195,6 @@
     "algorithms/572. Subtree of Another Tree/572.md",
     "algorithms/424. Longest Repeating Character Replacement/424.md",
     "algorithms/33. Search in Rotated Sorted Array/33.md",
-    "algorithms/3. Longest Substring Without Repeating Characters/3.md",
     "Untitled.canvas"
   ]
 }
