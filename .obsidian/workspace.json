@@ -159,6 +159,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/133. Clone Graph/133.md",
+    "algorithms/133. Clone Graph/133.js",
+    "algorithms/133. Clone Graph",
     "algorithms/200. Number of Islands/200.md",
     "algorithms/200. Number of Islands/200.js",
     "algorithms/200. Number of Islands",
@@ -172,8 +175,6 @@
     "algorithms/208. Implement Trie (Prefix Tree)/208.js",
     "algorithms/208. Implement Trie (Prefix Tree)",
     "algorithms/79. Word Search/79.md",
-    "algorithms/79. Word Search/79.js",
-    "algorithms/79. Word Search",
     "algorithms/39. Combination Sum/39.md",
     "algorithms/297. Serialize and Deserialize Binary Tree/297.md",
     "algorithms/198. House Robber/198.md",
@@ -194,7 +195,6 @@
     "grind75/Array/lesson.md",
     "algorithms/76. Minimum Window Substring/76.md",
     "algorithms/572. Subtree of Another Tree/572.md",
-    "algorithms/424. Longest Repeating Character Replacement/424.md",
     "Untitled.canvas"
   ]
 }
