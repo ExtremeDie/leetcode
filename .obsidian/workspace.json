@@ -159,6 +159,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/53. Maximum Subarray/53.md",
+    "algorithms/53. Maximum Subarray/53.js",
+    "algorithms/53. Maximum Subarray",
     "algorithms/133. Clone Graph/133.md",
     "algorithms/133. Clone Graph/133.js",
     "algorithms/133. Clone Graph",
@@ -172,8 +175,6 @@
     "algorithms/211. Design Add and Search Words Data Structure/211.js",
     "algorithms/211. Design Add and Search Words Data Structure",
     "algorithms/208. Implement Trie (Prefix Tree)/208.md",
-    "algorithms/208. Implement Trie (Prefix Tree)/208.js",
-    "algorithms/208. Implement Trie (Prefix Tree)",
     "algorithms/79. Word Search/79.md",
     "algorithms/39. Combination Sum/39.md",
     "algorithms/297. Serialize and Deserialize Binary Tree/297.md",
@@ -194,7 +195,6 @@
     "algorithms/235. Lowest Common Ancestor of a Binary Search Tree/235.md",
     "grind75/Array/lesson.md",
     "algorithms/76. Minimum Window Substring/76.md",
-    "algorithms/572. Subtree of Another Tree/572.md",
     "Untitled.canvas"
   ]
 }
