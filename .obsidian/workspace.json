@@ -159,11 +159,14 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/55. Jump Game/55.md",
+    "algorithms/55. Jump Game/55.js",
+    "algorithms/55. Jump Game",
     "algorithms/53. Maximum Subarray/53.md",
     "algorithms/53. Maximum Subarray/53.js",
     "algorithms/53. Maximum Subarray",
-    "algorithms/133. Clone Graph/133.md",
     "algorithms/133. Clone Graph/133.js",
+    "algorithms/133. Clone Graph/133.md",
     "algorithms/133. Clone Graph",
     "algorithms/200. Number of Islands/200.md",
     "algorithms/200. Number of Islands/200.js",
@@ -172,8 +175,6 @@
     "algorithms/212. Word Search II/212.js",
     "algorithms/212. Word Search II",
     "algorithms/211. Design Add and Search Words Data Structure/211.md",
-    "algorithms/211. Design Add and Search Words Data Structure/211.js",
-    "algorithms/211. Design Add and Search Words Data Structure",
     "algorithms/208. Implement Trie (Prefix Tree)/208.md",
     "algorithms/79. Word Search/79.md",
     "algorithms/39. Combination Sum/39.md",
@@ -194,7 +195,6 @@
     "algorithms/102. Binary Tree Level Order Traversal/102.md",
     "algorithms/235. Lowest Common Ancestor of a Binary Search Tree/235.md",
     "grind75/Array/lesson.md",
-    "algorithms/76. Minimum Window Substring/76.md",
     "Untitled.canvas"
   ]
 }
