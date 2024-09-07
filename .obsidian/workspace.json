@@ -159,6 +159,9 @@
   },
   "active": "57346c7c02bf3607",
   "lastOpenFiles": [
+    "algorithms/295. Find Median from Data Stream/295.md",
+    "algorithms/295. Find Median from Data Stream/295.js",
+    "algorithms/295. Find Median from Data Stream",
     "algorithms/55. Jump Game/55.md",
     "algorithms/55. Jump Game/55.js",
     "algorithms/55. Jump Game",
@@ -172,8 +175,6 @@
     "algorithms/200. Number of Islands/200.js",
     "algorithms/200. Number of Islands",
     "algorithms/212. Word Search II/212.md",
-    "algorithms/212. Word Search II/212.js",
-    "algorithms/212. Word Search II",
     "algorithms/211. Design Add and Search Words Data Structure/211.md",
     "algorithms/208. Implement Trie (Prefix Tree)/208.md",
     "algorithms/79. Word Search/79.md",
@@ -194,7 +195,6 @@
     "algorithms/191. Number of 1 Bits/191.md",
     "algorithms/102. Binary Tree Level Order Traversal/102.md",
     "algorithms/235. Lowest Common Ancestor of a Binary Search Tree/235.md",
-    "grind75/Array/lesson.md",
     "Untitled.canvas"
   ]
 }
