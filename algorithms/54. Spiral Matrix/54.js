@@ -12,12 +12,12 @@ var spiralOrder = function (matrix) {
 	let bottom = matrix.length;
 
 	while (left < right && top < bottom) {
-		// get all top rows
+		// get all top left to right
 		for (let i = left; i < right; i++) {
 			res.push(matrix[top][i]);
 		}
 		top++;
-		// get all right column
+		// get all right top to bottom
 		for (let i = top; i < bottom; i++) {
 			res.push(matrix[i][right - 1]);
 		}
@@ -28,12 +28,12 @@ var spiralOrder = function (matrix) {
 			break;
 		}
 
-		// get all bottom row
+		// get all bottom right to left
 		for (let i = right - 1; i >= left; i--) {
 			res.push(matrix[bottom - 1][i]);
 		}
 		bottom--;
-		//get all left column
+		//get all left bottom to top
 		for (let i = bottom - 1; i >= top; i--) {
 			res.push(matrix[i][left]);
 		}
