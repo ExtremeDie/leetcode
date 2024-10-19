@@ -2,6 +2,8 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
+// time: O(n^2)
+// space: O(n)
 var threeSum = function (nums) {
 	const res = [];
 	nums.sort((a, b) => a - b);
