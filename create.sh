@@ -6,11 +6,11 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
+# Remove any newlines or special characters from the folder name
+new_folder=$(echo "$1" | tr -d '\n\r\t')
+
 # Define the path to the main directory
 main_directory="algorithms"
-
-# Define the new folder name from the first argument
-new_folder="$1"
 
 # Extract the prefix (e.g., "1") from the folder name
 prefix=$(echo "$new_folder" | awk '{print $1}' | tr -d '.')
