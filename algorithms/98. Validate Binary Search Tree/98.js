@@ -14,9 +14,9 @@ var isValidBST = function (root) {
 	return isValid(root, -Infinity, Infinity);
 };
 
-var isValid = function (node, left, right) {
+var isValid = function (node, minimum, maximum) {
 	if (!node) return true;
 
-	if (!(node.val > left && node.val < right)) return false;
-	return isValid(node.left, left, node.val) && isValid(node.right, node.val, right);
+	if (!(node.val > minimum && node.val < maximum)) return false;
+	return isValid(node.left, minimum, node.val) && isValid(node.right, node.val, maximum);
 };
