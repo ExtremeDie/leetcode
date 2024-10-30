@@ -32,7 +32,7 @@ WordDictionary.prototype.search = function (word) {
 
 		for (; i < word.length; i++) {
 			const c = word[i];
-			if (word[i] === '.') {
+			if (c === '.') {
 				for (const child of Object.values(curr.children)) {
 					if (dfs(i + 1, child)) return true;
 				}
