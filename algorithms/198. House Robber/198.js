@@ -13,6 +13,19 @@ var rob = function (nums) {
 	}
 	return Math.max(rob, noRob);
 };
+
+var rob = function (nums) {
+	let prevRob = 0;
+	let maxRob = 0;
+
+	for (const n of nums) {
+		const newMax = Math.max(n + prevRob, maxRob);
+		prevRob = maxRob;
+		maxRob = newMax;
+	}
+	return maxRob;
+};
+
 var rob = function (nums) {
 	const n = nums.length;
 	if (n === 1) {
