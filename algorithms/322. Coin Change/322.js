@@ -7,7 +7,7 @@
 // a is number of amount and c is number of coins
 // Space complexity: O(a)
 var coinChange = function (coins, amount) {
-	let minCoins = new Array(amount + 1).fill(amount + 1);
+	let minCoins = new Array(amount + 1).fill(Infinity);
 	minCoins[0] = 0;
 
 	// loop until amount (inclusive)
@@ -19,5 +19,6 @@ var coinChange = function (coins, amount) {
 		}
 	}
 
-	return minCoins[amount] !== amount + 1 ? minCoins[amount] : -1;
+	// return -1 if it is default value
+	return minCoins[amount] !== Infinity ? minCoins[amount] : -1;
 };
