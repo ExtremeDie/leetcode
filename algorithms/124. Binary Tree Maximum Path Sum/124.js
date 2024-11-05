@@ -10,6 +10,8 @@
  * @param {TreeNode} root
  * @return {number}
  */
+// Time complexity: 0(n）
+// Space complexity: O(n）
 var maxPathSum = function (root) {
 	let max = -Infinity;
 
