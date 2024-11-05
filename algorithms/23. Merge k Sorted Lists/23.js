@@ -50,7 +50,6 @@ var mergeLists = function (l1, l2) {
 		tail = tail.next;
 	}
 
-	if (!l1) tail.next = l2;
-	if (!l2) tail.next = l1;
+	tail.next = l1 || l2;
 	return dummy.next;
 };
