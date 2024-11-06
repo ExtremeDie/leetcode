@@ -13,14 +13,14 @@ var search = function (nums, target) {
 		if (nums[mid] === target) return mid;
 
 		if (nums[l] <= nums[mid]) {
-			// left portion
+			// checking left portion
 			if (nums[l] <= target && target < nums[mid]) {
 				r = mid - 1;
 			} else {
 				l = mid + 1;
 			}
 		} else {
-			// right portion
+			// checking right portion
 			if (nums[mid] < target && target <= nums[r]) {
 				l = mid + 1;
 			} else {

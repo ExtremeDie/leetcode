@@ -50,8 +50,8 @@ var numDecodings = function (s) {
 // time: O(n)
 // space: O(n)
 var numDecodings = function (s) {
-	const dp = new Array(s.length).fill(-1);
-	dp[s.length] = 1;
+	const dp = new Array(s.length + 1).fill(-1);
+	dp[s.length] = 1; // 1 way for empty string
 
 	const dfs = (i) => {
 		if (dp[i] !== -1) return dp[i];
@@ -72,8 +72,8 @@ var numDecodings = function (s) {
 // time: O(n)
 // space: O(n)
 var numDecodings = function (s) {
-	const dp = new Array(s.length);
-	dp[s.length] = 1;
+	const dp = new Array(s.length + 1);
+	dp[s.length] = 1; // 1 way for empty string
 
 	for (let i = s.length - 1; i >= 0; i--) {
 		if (s[i] === '0') {

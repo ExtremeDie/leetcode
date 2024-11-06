@@ -55,12 +55,11 @@ var deserialize = function (data) {
 
 	const dfs = () => {
 		const val = dataArr[index];
+		index++;
 		if (val === 'N') {
-			index++;
 			return null;
 		}
-		const root = new TreeNode(val);
-		index++;
+		const root = new TreeNode(parseInt(val));
 		root.left = dfs();
 		root.right = dfs();
 		return root;

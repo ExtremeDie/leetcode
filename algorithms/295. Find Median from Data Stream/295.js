@@ -10,6 +10,7 @@ var MedianFinder = function () {
 MedianFinder.prototype.addNum = function (num) {
 	this.smallHeap.enqueue(num);
 
+	// make sure smallHeap <= bigHeap
 	if (this.smallHeap.size() && this.bigHeap.size() && this.smallHeap.front().element > this.bigHeap.front().element) {
 		const val = this.smallHeap.dequeue();
 		this.bigHeap.enqueue(val.element);

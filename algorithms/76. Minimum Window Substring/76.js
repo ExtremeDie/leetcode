@@ -13,11 +13,11 @@ var minWindow = function (s, t) {
 
 	let l = 0,
 		r = 0;
-	let required = tFreq.size;
+	let required = tFreq.size; // must be tFreq size, cannot be t.length
 	let minLength = Infinity;
 	let minLeft = 0;
 	while (r < s.length) {
-		const current = s[r];
+		const current = s[r]; // must be right, since we are incrementing r
 
 		winFreq.set(current, (winFreq.get(current) || 0) + 1);
 
@@ -26,13 +26,13 @@ var minWindow = function (s, t) {
 		}
 
 		while (required === 0) {
-			// update result
+			// update minimum result
 			if (r - l + 1 < minLength) {
 				minLength = r - l + 1;
 				minLeft = l;
 			}
 
-			// remove from left of window
+			// remove from left of window, shrink the window
 			const leftChar = s[l];
 			winFreq.set(leftChar, winFreq.get(leftChar) - 1);
 

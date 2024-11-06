@@ -11,7 +11,7 @@
  * @return {number[]}
  */
 var twoSum = function (nums, target) {
-	const map = {}; // diff -> index
+	const map = {}; // num -> index
 	for (let i = 0; i < nums.length; i++) {
 		const diff = target - nums[i];
 		// important to check for != null cause diff can be 0
