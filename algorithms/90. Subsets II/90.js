@@ -6,7 +6,7 @@
 // Space: O(n * 2^n)
 var subsetsWithDup = function (nums) {
 	const res = [];
-	nums.sort((a, b) => a - b);
+	nums.sort((a, b) => a - b); // sorting is important to remove duplicates
 
 	function dfs(i, subset) {
 		if (i >= nums.length) {
