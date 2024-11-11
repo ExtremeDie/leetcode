@@ -2,6 +2,9 @@
  * @param {number[]} nums
  * @return {number}
  */
+// Time: O(n)
+// Space: O(1)
+// BFS
 var jump = function (nums) {
 	let res = 0;
 	let l = 0;
@@ -28,8 +31,9 @@ var jump = function (nums) {
 	// loop until n - 2 because last one is the result
 	for (let i = 0; i < nums.length - 1; i++) {
 		const maxJumps = Math.min(nums.length - 1, i + nums[i]);
-		// jump until all maxJumps <=
-		for (let j = i; j <= maxJumps; j++) {
+
+		// For each position j reachable from index i, update dp[j] with the minimum jumps needed to reach j.
+		for (let j = i + 1; j <= maxJumps; j++) {
 			dp[j] = Math.min(dp[j], dp[i] + 1);
 		}
 	}
