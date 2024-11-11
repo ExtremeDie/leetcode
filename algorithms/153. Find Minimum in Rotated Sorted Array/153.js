@@ -31,7 +31,7 @@ var findMin = function (nums) {
 	while (l < r) {
 		let m = Math.floor(l + (r - l) / 2);
 
-		if (nums[m] < nums[r]) {
+		if (nums[m] <= nums[r]) {
 			r = m;
 		} else {
 			l = m + 1;
