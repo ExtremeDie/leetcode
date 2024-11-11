@@ -46,8 +46,7 @@ var longestCommonPrefix = function (arr1, arr2) {
 
 	// For each element in arr2, check if its prefixes exist in the Set
 	for (const num of arr2) {
-		let str = num.toString();
-		for (let i = 0; i <= str.length; i++) {
+		while (num && set.has(num)) {
 			if (set.has(str.substring(0, i))) {
 				max = Math.max(max, i);
 			}
