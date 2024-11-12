@@ -2,6 +2,9 @@
  * @param {character[][]} grid
  * @return {number}
  */
+// BFS
+// Time Complexity: O(M * N)
+// Space Complexity: O(M * N)
 var numIslands = function (grid) {
 	let islands = 0;
 	const rows = grid.length;
@@ -44,4 +47,38 @@ var numIslands = function (grid) {
 	}
 
 	return islands;
+};
+
+// DFS
+// Time Complexity: O(M * N)
+// Space Complexity: O(M * N)
+var numIslands = function (grid) {
+	let island = 0;
+	const visited = new Set();
+	const rows = grid.length;
+	const cols = grid[0].length;
+
+	function dfs(r, c) {
+		if (r < 0 || r >= rows || c < 0 || c >= cols || visited.has(`${r}-${c}`) || grid[r][c] === '0') {
+			return;
+		}
+
+		visited.add(`${r}-${c}`);
+
+		dfs(r - 1, c);
+		dfs(r + 1, c);
+		dfs(r, c - 1);
+		dfs(r, c + 1);
+	}
+
+	for (let r = 0; r < rows; r++) {
+		for (let c = 0; c < cols; c++) {
+			if (grid[r][c] === '1' && !visited.has(`${r}-${c}`)) {
+				dfs(r, c);
+				island++;
+			}
+		}
+	}
+
+	return island;
 };
