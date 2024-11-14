@@ -48,11 +48,11 @@ var minDistance = function (word1, word2) {
 	// dp[i][j] represents the minimum number of operations to make them same
 	const dp = new Array(m + 1).fill().map(() => new Array(n + 1).fill(0));
 
-	// Initialize last row based on remaining characters in word1 (deletion operations)
+	// Initialize last column based on remaining characters in word1 (deletion operations)
 	for (let i = 0; i <= m; i++) {
 		dp[i][n] = m - i;
 	}
-	// Initialize last column based on remaining characters in word2 (insertion operations)
+	// Initialize last row based on remaining characters in word2 (insertion operations)
 	for (let j = 0; j <= n; j++) {
 		dp[m][j] = n - j;
 	}
