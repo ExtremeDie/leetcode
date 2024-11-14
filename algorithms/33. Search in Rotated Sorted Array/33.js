@@ -12,16 +12,19 @@ var search = function (nums, target) {
 
 		if (nums[mid] === target) return mid;
 
+		// When dividing the roated array into two halves, one must be sorted.
+
+		// Check if the left side is sorted
 		if (nums[l] <= nums[mid]) {
-			// checking left portion
-			if (nums[l] <= target && target < nums[mid]) {
+			if (nums[l] <= target && target <= nums[mid]) {
 				r = mid - 1;
 			} else {
 				l = mid + 1;
 			}
+
+			// Otherwise, the right side is sorted
 		} else {
-			// checking right portion
-			if (nums[mid] < target && target <= nums[r]) {
+			if (nums[mid] <= target && target <= nums[r]) {
 				l = mid + 1;
 			} else {
 				r = mid - 1;
