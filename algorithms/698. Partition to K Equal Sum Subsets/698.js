@@ -3,6 +3,8 @@
  * @param {number} k
  * @return {boolean}
  */
+// Time Complexity: Approximately O(k \cdot 2^N) in the worst case, with practical performance being faster due to optimizations.
+// Space Complexity: O(N)
 var canPartitionKSubsets = function (nums, k) {
 	const sum = nums.reduce((acc, curr) => acc + curr, 0);
 	if (sum % k) {
