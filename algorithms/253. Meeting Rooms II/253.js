@@ -35,3 +35,22 @@ class Solution {
 		return res;
 	}
 }
+
+const test = new Solution();
+const intervals = [
+	{
+		start: 0,
+		end: 40,
+	},
+	{
+		start: 5,
+		end: 10,
+	},
+	{
+		start: 10,
+		end: 20,
+	},
+];
+
+const res = test.minMeetingRooms(intervals);
+console.log('🚀 ~ res:', res);
