@@ -11,7 +11,7 @@ var longestSubstring = function (s, k) {
 		charCount.set(s[i], (charCount.get(s[i]) || 0) + 1);
 	}
 
-	// check if the strong already valid
+	// check if the string already valid
 	let valid = true;
 	for (let count of charCount.values()) {
 		if (count < k) {

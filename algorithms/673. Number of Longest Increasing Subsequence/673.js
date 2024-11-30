@@ -5,7 +5,7 @@
 // Time Complexity: O(n²)
 // Space Complexity: O(n)
 var findNumberOfLIS = function (nums) {
-	const dp = {}; // index -> [maxLIS, masCount]
+	const dp = {}; // index -> [maxLIS, maxCount]
 	let globalLIS = 0;
 	let globalCount = 0;
 

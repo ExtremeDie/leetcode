@@ -22,10 +22,10 @@ var solution = function (isBadVersion) {
 			high = n;
 		while (low < high) {
 			let mid = low + Math.floor((high - low) / 2);
-			if (!isBadVersion(mid)) {
-				low = mid + 1;
-			} else {
+			if (isBadVersion(mid)) {
 				high = mid;
+			} else {
+				low = mid + 1;
 			}
 		}
 
