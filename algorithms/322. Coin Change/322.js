@@ -8,7 +8,7 @@
 // Space complexity: O(a)
 var coinChange = function (coins, amount) {
 	let minCoins = new Array(amount + 1).fill(Infinity);
-	minCoins[0] = 0;
+	minCoins[0] = 0; // 0 coin needed to make 0 amount
 
 	// loop until amount (inclusive)
 	for (let i = 1; i <= amount; i++) {
